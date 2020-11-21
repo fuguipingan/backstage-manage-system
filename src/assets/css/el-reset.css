@@ -1,0 +1,60 @@
+.login .el-button--primary{
+    width: 100%;
+    background: linear-gradient(90deg,#1596fb,#002dff);
+}
+.login .el-form-item__label  {
+    color: #fff;
+} 
+
+/* 验证码 */
+.login .captcha{
+    width: 40%;
+    float: left;
+  }
+  .login .captcha-svg{
+    background-color: #DCD9D4;
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+ background-blend-mode: soft-light,screen;
+    margin-left: 20px;
+    display: inline-block;
+    height: 44px;
+    border-radius: 10px;
+  }
+  .login .captcha-svg .svg{
+  
+    margin-left: 20px;
+  }
+
+
+.home .grid-content {
+    background: none  !important;
+}
+.home .el-header{
+    padding: 0;
+}
+.home .grid-content{
+    text-align: left;
+    margin-left: 20px !important;
+    box-sizing: border-box;
+}
+.home .icon-shouqi , .home .icon-zhankai{
+    font-size: 25px;
+}
+.home .el-aside{
+    text-align: left !important;
+}
+.home .el-header{
+    height: auto !important;
+}
+.home .el-menu-vertical-demo {
+    min-height: auto !important;
+}
+.home .el-breadcrumb{
+    margin: 20px 0;
+}
+
+.home .el-main{
+    background: none !important;
+    line-height: initial !important;
+    text-align: left !important;
+}
